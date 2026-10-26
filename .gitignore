@@ -1,0 +1,35 @@
+# Archives et journaux bruts (logs_s3.zip contient l'adresse IP publique du poste)
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.log
+logs_*/
+
+# Secrets et identifiants
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*secret*
+*credentials*
+*salt*
+.azure/
+*.tfstate
+*.tfstate.*
+
+# Caches et environnements Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-*/
+venv/
+
+# Systeme et editeurs
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
